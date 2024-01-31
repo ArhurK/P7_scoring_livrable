@@ -1,0 +1,6 @@
+artifact_location: file:///content/mlruns/471752531711128311
+creation_time: 1702032544513
+experiment_id: '471752531711128311'
+last_update_time: 1702032544513
+lifecycle_stage: active
+name: clf_underfitting

@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/371046865893615215/b9085fff2ff5434f9ca4935f99996b28/artifacts
+end_time: 1702025605979
+entry_point_name: ''
+experiment_id: '371046865893615215'
+lifecycle_stage: active
+run_id: b9085fff2ff5434f9ca4935f99996b28
+run_name: Baseline_dummy
+run_uuid: b9085fff2ff5434f9ca4935f99996b28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702025601439
+status: 3
+tags: []
+user_id: root

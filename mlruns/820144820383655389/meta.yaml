@@ -1,0 +1,6 @@
+artifact_location: file:///content/mlruns/820144820383655389
+creation_time: 1702029405949
+experiment_id: '820144820383655389'
+last_update_time: 1702029405949
+lifecycle_stage: active
+name: model_lgbm_class_baseline

@@ -1,0 +1,6 @@
+artifact_location: file:///content/mlruns/649835825271859441
+creation_time: 1702029640890
+experiment_id: '649835825271859441'
+last_update_time: 1702029640890
+lifecycle_stage: active
+name: model_lgbm_class_weight
