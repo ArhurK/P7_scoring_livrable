@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/820144820383655389/5a70f12615434d1e96d4429c20b6acdb/artifacts
+end_time: 1702029409418
+entry_point_name: ''
+experiment_id: '820144820383655389'
+lifecycle_stage: active
+run_id: 5a70f12615434d1e96d4429c20b6acdb
+run_name: model_lgbm_class_baseline
+run_uuid: 5a70f12615434d1e96d4429c20b6acdb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702029405952
+status: 3
+tags: []
+user_id: root
