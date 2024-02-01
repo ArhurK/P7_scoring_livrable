@@ -2,7 +2,7 @@ pandas==1.4.4
 numpy==1.21.6
 streamlit==1.30.0
 requests==2.31.0
-# json
+json==2.0.9
 shap==0.41.0
 matplotlib==3.5.2
 plotly==5.9.0

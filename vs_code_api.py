@@ -19,9 +19,9 @@ from fastapi.responses import JSONResponse
 
 
 # Charger le modèle MLFlow
-model_path = r"C:\Users\Hankour\OneDrive\Bureau\OC_Arthur\mlruns\159852288404653738\89e2dedfd3dd428b849adecd8c60de14\artifacts\model_lgbm_class_weight_best_model"
+model_path = r"mlruns\159852288404653738\89e2dedfd3dd428b849adecd8c60de14\artifacts\model_lgbm_class_weight_best_model"
 model = mlflow.sklearn.load_model(model_path)
-df = pd.read_pickle('test_df.pkl')
+df = pd.read_pickle('test_samp.pkl')
 
 # débug
 import logging
