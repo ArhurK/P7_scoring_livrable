@@ -30,18 +30,18 @@ logging.basicConfig(level=logging.DEBUG)  # Active les logs détaillés
 # Initialisation
 app = FastAPI(debug=True)
 
-origins = [
-    "http://localhost",
-    "http://10.137.42.118:8501"  #  Streamlit sur port local
-]
+# origins = [
+#     "http://localhost",
+#     "http://10.137.42.118:8501"  #  Streamlit sur port local
+# ]
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=origins,
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 
 
 # api test
