@@ -69,3 +69,5 @@ jobs:
           app-name: 'apiP7'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_33E9F68E70574621809B5495AF8DC9B6 }}
+          package: ./release.zip
+          start-up-command: 'uvicorn app:vs_code_api --host 0.0.0.0 --port $PORT && streamlit run Dashboard_streamlit.py'
