@@ -6,12 +6,12 @@ Déployer un api sur Azur qui renvoit la probabilité de défault de crédit d'u
 On met en input l'ID client et on reçoit en output la probabilité de défault et la matrice des shap values du modèle
 
 Les fichiers : 
-vs_code_api : l'api fastAPI
-requirements : versionning des packages python
-start.sh : script le lancement de l'application dans azur
-model.pkl : modèle version pickle 
-test_df.pkl : dataframe contenant les données clients
-test_samp.pkl : échantillon du dataframe test_df.pkl
+- vs_code_api : l'api fastAPI
+- requirements : versionning des packages python
+- start.sh : script le lancement de l'application dans azur
+- model.pkl : modèle version pickle 
+- test_df.pkl : dataframe contenant les données clients
+- test_samp.pkl : échantillon du dataframe test_df.pkl
 
 #### Test unitaires 
 dossier tests/test
